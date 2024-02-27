@@ -11,6 +11,6 @@ Toast.makeText(this, "onStart()", Toast.LENGTH_SHORT).show();
 -show(): This method displays the Toast message on the screen.
 
 <H3> Another way of creating toast</H3>
-Toast toast = Toast.makeText(this,"SecondCreate()",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER,0,0);  //placement of the text
-        toast.show();
+Toast toast = Toast.makeText(this,"SecondCreate()",Toast.LENGTH_SHORT); <br>
+        toast.setGravity(Gravity.CENTER,0,0);  //placement of the text <br>
+        toast.show(); <br>
